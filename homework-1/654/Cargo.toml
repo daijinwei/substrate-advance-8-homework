@@ -8,6 +8,7 @@ homepage = "https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/i
 [workspace]
 resolver = "2"
 
+# 新定义的pallet，需要添加到members中，比如新定义的poe，添加方式如下
 members = [
 	"node",
 	'pallets/poe',
